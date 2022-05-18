@@ -32,6 +32,6 @@ The ContainerConfig class will initialize the Application class.
 The program class (the main class) will start configuring the Container and then, by the Application class, will call the
 BusinnessLogic, instead of calling the BusinnessLogic directly.
 
-## Thank you @TimCorey for the Tutorial: https://www.youtube.com/watch?v=mCUNrRtVVWY&ab_channel=IAmTimCorey
+## Thank you @TimCorey for the Tutorial: https://youtu.be/mCUNrRtVVWY
 
 
