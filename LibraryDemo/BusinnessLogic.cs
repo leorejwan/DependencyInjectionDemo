@@ -2,7 +2,7 @@
 
 namespace LibraryDemo
 {
-    public class BusinnessLogic
+    public class BusinnessLogic : IBusinnessLogic
     {
         ILogger _logger;
         IDataAccess _dataAccess;
