@@ -12,8 +12,8 @@ It contains a BusinnessLogic class that depends on two Utilities classes: Logger
 
 **Second commit (8040df835145bfa2c041b01d40e71e8292d3d5d8):**
 
-I added Interfaces to the utilitie classes and added that interfaces into the constructor of the BusinnessLogic class. 
-In that way, when the BusinnessLogic class is initializes, it will automaticly reference to ths classes
+I added Interfaces to the utilities classes and added that interfaces into the constructor of the BusinnessLogic class. 
+In that way, when the BusinnessLogic class is initializes, it will automatically reference to the classes
 
 **Third commit (6eb70bb8c703827911fef98a91da04375708d739):**
 
