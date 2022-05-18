@@ -14,6 +14,8 @@ namespace DependencyInjectionDemo
         public static IContainer Configure()
         {
             var builder = new ContainerBuilder();
+
+            builder.RegisterType<Application>().As<IApplication>();
             builder.RegisterType<BusinnessLogic>().As<IBusinnessLogic>();
 
             builder.RegisterAssemblyTypes(Assembly.Load(nameof(LibraryDemo)))
